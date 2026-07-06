@@ -109,15 +109,8 @@ export default function ProductDetailPage() {
                 {t("productDetail.currentlyViewing")} <span className="font-semibold text-[var(--gaf-near-black)]">{product.colorName}</span>
               </p>
             </div>
-
-            <div className="flex flex-wrap gap-3">
-              <Link to="/homeowners/find-a-contractor" className="inline-flex items-center gap-2 bg-[var(--gaf-red)] hover:bg-[var(--gaf-red-dark)] text-white font-bold px-8 py-3 transition-colors">
-                {t("productDetail.findInstaller")} <ArrowRight className="w-4 h-4" />
-              </Link>
-              <Link to="/homeowners/design-your-roof" className="inline-flex items-center gap-2 border-2 border-[var(--gaf-near-black)] text-[var(--gaf-near-black)] hover:bg-[var(--gaf-near-black)] hover:text-white font-bold px-8 py-3 transition-colors">
-                {t("products.designToolBtn")}
-              </Link>
-            </div>
+            
+            {/* Butonlar buradan kaldırıldı */}
           </div>
         </div>
       </section>

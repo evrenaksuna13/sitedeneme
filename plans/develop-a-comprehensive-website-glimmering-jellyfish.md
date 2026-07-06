@@ -105,7 +105,7 @@ src/app/
       AboutPage.tsx
       SustainabilityPage.tsx
       NewsPage.tsx
-      CareersPage.tsx
+      WarrantyPage.tsx
 ```
 
 ---
@@ -132,7 +132,7 @@ Use `createBrowserRouter` + `RouterProvider`. All page routes nested under `Page
 | `/about` | AboutPage |
 | `/about/sustainability` | SustainabilityPage |
 | `/about/news` | NewsPage |
-| `/about/careers` | CareersPage |
+| `/about/warranty` | WarrantyPage |
 
 ---
 
@@ -213,7 +213,7 @@ Bottom bar: copyright, Privacy Policy, Terms of Use. Red hover on all links (`ho
 
 ### Remaining pages (lighter weight):
 - **NewsPage** — article grid + featured story
-- **CareersPage** — open roles table + culture section
+- **WarrantyPage** — open roles table + culture section
 - **TrainingPage** — course catalog cards + enrollment CTA
 - **ContractorResourcesPage** — document download grid + links
 - **LearnAboutRoofingPage** — educational article grid
@@ -237,7 +237,7 @@ Bottom bar: copyright, Privacy Policy, Terms of Use. Red hover on all links (`ho
 12. `ContractorProgramPage.tsx`
 13. `LearningCenterPage.tsx`
 14. `AboutPage.tsx`
-15. Remaining pages in bulk: WarrantyPage, DesignYourRoofPage, SustainabilityPage, ProductDetailPage, NewsPage, CareersPage, TrainingPage, ContractorResourcesPage, LearnAboutRoofingPage, ArticleDetailPage
+15. Remaining pages in bulk: WarrantyPage, DesignYourRoofPage, SustainabilityPage, ProductDetailPage, NewsPage, WarrantyPage, TrainingPage, ContractorResourcesPage, LearnAboutRoofingPage, ArticleDetailPage
 
 ---
 

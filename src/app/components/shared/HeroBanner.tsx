@@ -46,7 +46,8 @@ export default function HeroBanner({
       {/* Decorative accent bar */}
       <div className="absolute left-0 top-0 bottom-0 w-1 bg-[var(--gaf-red)]" />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-20">
+      {/* İçerik kapsayıcısı - Sola yaslanmış yapı */}
+      <div className="relative z-10 max-w-7xl w-full mx-auto px-6 lg:px-20 py-20">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}

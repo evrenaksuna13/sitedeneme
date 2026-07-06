@@ -102,11 +102,11 @@ export default function MobileNav() {
 
         <div className="p-5 border-t border-gray-200">
           <Link
-            to="/homeowners/find-a-contractor"
+            to="/contact"
             onClick={close}
             className="block w-full text-center bg-[var(--gaf-red)] hover:bg-[var(--gaf-red-dark)] text-white font-semibold py-3 text-sm transition-colors font-sans"
           >
-            {t("common.getFreeEstimate")}
+            {lang === "tr" ? "İletişime Geç" : "Contact Us"}
           </Link>
         </div>
       </div>

@@ -46,8 +46,8 @@ export default function SustainabilityPage() {
 
   const PROGRAMS = [
     {
-      name: lang === "tr" ? "Starbond Solar" : "Starbond Solar",
-      desc: lang === "tr" ? "Starbond kiremitlerinin dayanıklılığını fotovoltaik teknolojiyle birleştiren entegre güneş enerjili çatı sistemi." : "Integrated solar roofing that combines the durability of Starbond tiles with photovoltaic technology for a seamless, weatherproof installation.",
+      name: lang === "tr" ? "Metal Kiremit Solar" : "Metal Kiremit Solar",
+      desc: lang === "tr" ? "Metal Kiremit kiremitlerinin dayanıklılığını fotovoltaik teknolojiyle birleştiren entegre güneş enerjili çatı sistemi." : "Integrated solar roofing that combines the durability of Metal Kiremit tiles with photovoltaic technology for a seamless, weatherproof installation.",
       gradient: "from-yellow-600 to-orange-700",
     },
     {

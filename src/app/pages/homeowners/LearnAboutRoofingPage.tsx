@@ -30,14 +30,14 @@ export default function LearnAboutRoofingPage() {
   const FACTS_EN = [
     { fact: "The average stone-coated metal roof lasts 40–50 years depending on ventilation, climate, and product quality.", label: "Roof Lifespan" },
     { fact: "Improper ventilation is responsible for up to 40% of all premature roof failures — a problem often missed during installation.", label: "Ventilation" },
-    { fact: "Starbond Classic tiles can resist winds up to 130 mph — equivalent to a Category 3 hurricane — when properly installed.", label: "Wind Resistance" },
+    { fact: "Metal Kiremit Classic tiles can resist winds up to 130 mph — equivalent to a Category 3 hurricane — when properly installed.", label: "Wind Resistance" },
     { fact: "An Energy Star-rated cool roof can reduce urban heat island temperatures by 5°F and lower rooftop temps by up to 50°F on hot days.", label: "Energy Efficiency" },
   ];
 
   const FACTS_TR = [
     { fact: "Ortalama taş kaplı metal çatı, havalandırmaya, iklime ve ürün kalitesine bağlı olarak 40-50 yıl dayanır.", label: "Çatı Ömrü" },
     { fact: "Uygunsuz havalandırma, tüm erken çatı arızalarının %40'ına kadar sorumludur — montaj sırasında sıklıkla gözden kaçan bir sorun.", label: "Havalandırma" },
-    { fact: "Starbond Classic kiremitler, doğru kurulduğunda Kategori 3 kasırgaya eşdeğer 130 mph'a kadar rüzgara dayanabilir.", label: "Rüzgar Direnci" },
+    { fact: "Metal Kiremit Classic kiremitler, doğru kurulduğunda Kategori 3 kasırgaya eşdeğer 130 mph'a kadar rüzgara dayanabilir.", label: "Rüzgar Direnci" },
     { fact: "Energy Star onaylı serin çatı, kentsel ısı adası sıcaklıklarını 5°F azaltabilir ve sıcak günlerde çatı üstü sıcaklığını 50°F'a kadar düşürebilir.", label: "Enerji Verimliliği" },
   ];
 
